@@ -11,6 +11,7 @@
 		C6FBC52F280455BC00297E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBC52E280455BC00297E07 /* ContentView.swift */; };
 		C6FBC531280455BD00297E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBC530280455BD00297E07 /* Assets.xcassets */; };
 		C6FBC534280455BD00297E07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBC533280455BD00297E07 /* Preview Assets.xcassets */; };
+		C6FBC53B280455FC00297E07 /* OnTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBC53A280455FC00297E07 /* OnTouch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C6FBC52E280455BC00297E07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6FBC530280455BD00297E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FBC533280455BD00297E07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6FBC53A280455FC00297E07 /* OnTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTouch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C6FBC52B280455BC00297E07 /* BezierSample */ = {
 			isa = PBXGroup;
 			children = (
+				C6FBC53A280455FC00297E07 /* OnTouch.swift */,
 				C6FBC52C280455BC00297E07 /* BezierSampleApp.swift */,
 				C6FBC52E280455BC00297E07 /* ContentView.swift */,
 				C6FBC530280455BD00297E07 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FBC52F280455BC00297E07 /* ContentView.swift in Sources */,
+				C6FBC53B280455FC00297E07 /* OnTouch.swift in Sources */,
 				C6FBC52D280455BC00297E07 /* BezierSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
